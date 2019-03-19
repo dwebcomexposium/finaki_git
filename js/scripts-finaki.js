@@ -306,7 +306,6 @@ $(document).ready(function(){
     $win.on('resize orientationchange', function(){
         addDeviceResolution();
         mobileHeader();
-        addBaseClickEvents();
     });
     
     AOS.init({
@@ -317,4 +316,5 @@ $(document).ready(function(){
     mobileHeader();
     magnificPopup();
     addDeviceResolution();
+    addBaseClickEvents();
 });
