@@ -527,7 +527,7 @@ body.show-nav-main .btn-menu span:after { -webkit-transform: rotate(-45deg); tra
     Lang Switcher
 \* ------------------------------------------------------------ */
 
-.lang-switcher { position: static; display: inline-block; padding-top: 41px; margin-left: 36px; background: transparent; font-size: 0;  }
+.lang-switcher { position: static; display: inline-block; padding-top: 41px; margin-left: 36px; background: transparent; font-size: 0; }
 
 .ls-trigger { display: none; }
 
@@ -1915,7 +1915,7 @@ custom[name="factbox"] p:last-child { margin-bottom: 0; }
 .event-testi.contacts-list:before { display: none; }
 .event-testi.contacts-list { padding: 0; }
 .event-testi.contacts-list .cl-content { display: block; padding-left: 5px; }
-.event-testi.contacts-list .cl-item { display: -webkit-box; display: -ms-flexbox; display: flex; padding: 0; margin-bottom: 41px; text-align: left; }
+.event-testi.contacts-list .cl-item { float: none; display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; padding: 0; margin-bottom: 41px; text-align: left; }
 .event-testi.contacts-list .cl-item:last-child { margin-bottom: 0; }
 .event-testi .cl-item-illust { display: none; }
 .event-testi .cl-item-title { margin-bottom: 10px; font-size: 24px !important; line-height: 1.25; color: #000; }
