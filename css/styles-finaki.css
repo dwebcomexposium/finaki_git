@@ -169,6 +169,14 @@
 html { font-size: 22px; }
 body { background: #fff; font-family: 'Source Sans Pro', sans-serif; font-size: 22px; line-height: 1.55; color: #000; font-weight: normal; }
 
+div, span {
+  word-wrap: normal;
+  -webkit-hyphens: none;
+     -moz-hyphens: none;
+      -ms-hyphens: none;
+          hyphens: none;
+}
+
 a { color: #000; -webkit-transition: all .4s; transition: all .4s; }
 
 h1,
@@ -1227,7 +1235,7 @@ body.newslist { background: #e4e4e4; f}
 .site-footer .inside > * { display: initial; }
 .site-footer .inside > .cols { display: -webkit-box; display: -ms-flexbox; display: flex; }
 .site-footer .footer-title { margin-bottom: 0; font-size: 22px; line-height: 1.18; letter-spacing: .1em; text-transform: none; }
-.site-footer .socials { padding-top: 23px; margin-bottom: 14px; margin-left: -58px; }
+.site-footer .socials { padding-top: 23px; margin-bottom: 14px; margin-left: -2px; }
 .site-footer .cols { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 .site-footer .col--size1 { width: 25.85%; padding-right: 60px; padding-left: 38px; }
 .site-footer .col--size2 { width: 28.5%; padding-top: 36px; }
