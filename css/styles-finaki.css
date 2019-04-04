@@ -724,7 +724,9 @@ body.show-nav-main .btn-menu span:after { -webkit-transform: rotate(-45deg); tra
 
 /*  --programs  */
 .section--programs { padding-bottom: 29px; }
-.section--programs .section__head { padding-bottom: 18px; margin-bottom: 47px; }
+.section--programs .section__head { padding-bottom: 18px; margin-bottom: 20px; }
+.section--programs>h3 { margin-bottom: 20px; }
+
 .section--programs .section__head .inside { max-width: 1220px; }
 
 .section--programs .section__body { overflow: hidden; }
