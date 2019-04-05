@@ -704,7 +704,8 @@ body.show-nav-main .btn-menu span:after { -webkit-transform: rotate(-45deg); tra
 
 /*  --slider  */
 .section--slider { padding: 26px 0 24px; text-align: center; }
-.section--slider .section__body img { display: block; margin: 0 auto; }
+.section--slider .section__body img { display: block; margin: 0 auto; padding-bottom: 30px;
+}
 
 /*  --links  */
 .section--links { padding-bottom: 215px; }
