@@ -1970,7 +1970,7 @@ body.lp-event .contacts-list .cl-item-photo { width: 100%; max-width: 119px; mar
 .event-atelier .af-title { padding: 20px 25px 15px; margin-right: -70px; margin-bottom: 0; background: #7BC0E6; color: #1A181C; }
 .event-atelier h2 { margin-top: 42px; margin-bottom: 14px; font-family: 'Source Sans Pro', sans-serif; line-height: 1.19; }
 .event-atelier .af-illust { margin-right: 43px; margin-bottom: 0; }
-.event-atelier p { margin-bottom: 0; font-size: 20px; }
+.event-atelier p { margin-bottom: 15px; font-size: 20px; }
 .event-atelier figure { margin: 13px 0; }
 .event-atelier figure img { margin-left: -10px; }
 .event-atelier figcaption { display: none; }
