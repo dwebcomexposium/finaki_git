@@ -13,7 +13,7 @@ $(document).ready(function(){
         WinWidth : 0
     };
 
-    var sliderTimeoutDuration = 10000;
+    var sliderTimeoutDuration = 5000;
     var dotIndex;
 
     var $startFading = function(){
@@ -68,7 +68,7 @@ $(document).ready(function(){
                 }
             },
             auto: {
-                play: false,
+                play: true,
                 duration: 1000,
                 timeoutDuration: sliderTimeoutDuration
             },
