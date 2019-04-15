@@ -694,7 +694,7 @@ body.show-nav-main .btn-menu span:after { -webkit-transform: rotate(-45deg); tra
     Section
 \* ------------------------------------------------------------ */
 
-.section { padding: 25px 0; text-align: center; }
+.section { padding: 45px 0; text-align: center; }
 .section .links:not(:first-child) { margin-top: 114px; }
 
 .section .section__head { padding: 18px 0 17px; margin-bottom: 35px; background: #7BC0E6; }
@@ -1965,14 +1965,14 @@ body.lp-event .contacts-list .cl-item-photo { width: 100%; max-width: 119px; mar
     Event Atelier
 \* ------------------------------------------------------------ */
 
-.event-atelier { padding-right: 70px; margin-top: 0 !important; background: #DBDBDB; }
+.event-atelier { padding-right: 70px; margin-top: 45px!important; background: #DBDBDB;  }
 .event-atelier:after { content: ''; display: table; line-height: 0; clear: both; }
 .event-atelier .af-title { padding: 20px 25px 15px; margin-right: -70px; margin-bottom: 0; background: #7BC0E6; color: #1A181C; }
 .event-atelier h2 { margin-top: 42px; margin-bottom: 14px; font-family: 'Source Sans Pro', sans-serif; line-height: 1.19; }
 .event-atelier .af-illust { margin-right: 43px; margin-bottom: 0; }
 .event-atelier p { margin-bottom: 15px; font-size: 20px; }
-.event-atelier figure { margin: 13px 0; }
-.event-atelier figure img { margin-left: -10px; }
+.event-atelier figure { margin: 13px 0; width: 350px; }
+.event-atelier figure img { margin-left: -10px;  }
 .event-atelier figcaption { display: none; }
 
 @media (max-width: 1500px) {
