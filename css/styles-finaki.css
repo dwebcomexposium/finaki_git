@@ -2005,3 +2005,4 @@ body.lp-event .contacts-list .cl-item-photo { width: 100%; max-width: 119px; mar
     .event-atelier .af-illust { float: none; max-width: calc(100% + 30px); margin: 0 -15px 15px; }
     .event-atelier figure img { max-width: 120px; margin: 10px 0 15px; }
 }
+.at-publication { display: none; }
