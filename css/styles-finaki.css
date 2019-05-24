@@ -2009,3 +2009,13 @@ body.lp-event .contacts-list .cl-item-photo { width: 100%; max-width: 119px; mar
     Div
 \* ------------------------------------------------------------ */
 .at-publication { display: none; }
+
+@media (max-width: 1023px) {
+    .site-banner .main-navigation, 
+    .site-banner .socials, 
+    .site-banner .lang-switcher { display: none; }
+
+    .site-banner .header-mobile .main-navigation, 
+    .site-banner .header-mobile .socials, 
+    .site-banner .header-mobile .lang-switcher { display: block; }
+}
