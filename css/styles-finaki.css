@@ -839,6 +839,9 @@ body.show-nav-main .btn-menu span:after { -webkit-transform: rotate(-45deg); tra
 
 .accordion .accordion__body { display: none; padding-bottom: 25px; margin-left: -3px; font-size: 19px; padding-top: 10px; }
 
+.accordion .accordion__body p { text-align: justify; font-size: 17px; }
+
+
 @media (max-width: 1500px) {
     .accordion .accordion__body { font-size: 19px; }
 }
@@ -1100,7 +1103,7 @@ body.show-nav-main .btn-menu span:after { -webkit-transform: rotate(-45deg); tra
 /*  Image  */
 .cl-item-photo { display: block; max-width: 342px; margin: 0 auto 25px; }
 .cl-item-photo img { width: 100%; }
-.cl-item-content { display: block; font-size: 18px !important; line-height: 1.35; color: #000; word-break: break-all; }
+.cl-item-content { display: block; font-size: 18px !important; line-height: 1.35; color: #000;  }
 .cl-item-content p { margin: 0 !important; color: #000; }
 .cl-item-content a { text-decoration: none; }
 
