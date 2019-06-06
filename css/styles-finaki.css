@@ -839,7 +839,8 @@ body.show-nav-main .btn-menu span:after { -webkit-transform: rotate(-45deg); tra
 
 .accordion .accordion__body { display: none; padding-bottom: 25px; margin-left: -3px; font-size: 19px; padding-top: 10px; }
 
-.accordion .accordion__body p { text-align: justify; font-size: 17px; }
+.accordion .accordion__body p, .accordion .accordion__body li { text-align: justify; font-size: 17px; }
+
 
 
 @media (max-width: 1500px) {
