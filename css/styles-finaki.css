@@ -1514,7 +1514,7 @@ body.newslist { background: #e4e4e4; f}
     Article Page
 \* ------------------------------------------------------------ */
 
-.article .layout-2-col [id="zone2"] { position: relative; padding: 261px 0 220px; }
+.article .layout-2-col [id="zone2"], body.contact .layout-2-col [id="zone2"] { position: relative; padding: 261px 0 220px; }
 /*.article .layout-2-col [id="zone2"]:before { content: ''; position: absolute; top: 0; right: 0; left: 0; height: 329px; background: url(images/temp/intro.png) center no-repeat; background-size: cover; }*/
 body.newslist .layout-2-col [id="zone2"]:after { content: ''; position: absolute; top: 0; right: 0; left: 0; height: 329px; background: -webkit-linear-gradient(top, rgba(51,51,51,.29) 0%, rgba(32,44,75,0) 100%); background: linear-gradient(to bottom, rgba(51,51,51,.29) 0%, rgba(32,44,75,0) 100%); }
 
@@ -1959,12 +1959,12 @@ body.lp-event .contacts-list .cl-item-photo { width: 100%; max-width: 119px; mar
     Contact
 \* ------------------------------------------------------------ */
 
-.contact { max-width: 523px; text-align: center; }
-.contact h4 { margin-bottom: 24px; font-family: 'Source Sans Pro', sans-serif; font-size: 27px; line-height: 1.33; letter-spacing: 0; }
-.contact .style4 .lien4 { padding-right: 57px; }
+div.contact { max-width: 523px; text-align: center; }
+div.contact h4 { margin-bottom: 24px; font-family: 'Source Sans Pro', sans-serif; font-size: 27px; line-height: 1.33; letter-spacing: 0; }
+div.contact .style4 .lien4 { padding-right: 57px; }
 
 @media (max-width: 767px) {
-    .contact h4 { margin-bottom: 20px; font-size: 21px; }
+    div.contact h4 { margin-bottom: 20px; font-size: 21px; }
 }
 
 /* ------------------------------------------------------------ *\
@@ -2023,3 +2023,8 @@ body.lp-event .contacts-list .cl-item-photo { width: 100%; max-width: 119px; mar
     .site-banner .header-mobile .socials, 
     .site-banner .header-mobile .lang-switcher { display: block; }
 }
+
+body.contact .contacts-list .cl-item { width: 100%; }
+body.contact .contacts-list h1 { text-align: center; }
+body.contact .contacts-list .cl-item { padding-bottom: 50px; }
+
