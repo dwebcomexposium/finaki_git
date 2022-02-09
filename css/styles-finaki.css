@@ -2059,3 +2059,19 @@ body.contact .contacts-list .cl-item { width: 100%; }
 body.contact .contacts-list h1 { text-align: center; }
 body.contact .contacts-list .cl-item { padding-bottom: 50px; }
 body.contact .contacts-list { background: none; }
+
+
+
+/* ------------------------------------------------------------ *\
+    Evols
+\* ------------------------------------------------------------ */
+
+.lp-event #zone2, .lp-event #zone3 { display: none; }
+
+/*event*/
+.lp-event #zone4 .article-focus:not(.event-atelier) { max-width: 1240px; text-align: center;  margin: 0 auto; padding-top: 50px;}
+.lp-event #zone4 .keyfig { max-width: 1240px; text-align: center;  margin: 0 auto; padding-top: 50px;}
+
+/*programme*/
+.lp-event .tabs .tabs__nav li { width: 25%; }
+.tab__entry h4 { padding-top: 50px; }
