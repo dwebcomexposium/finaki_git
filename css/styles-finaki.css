@@ -2070,8 +2070,11 @@ body.contact .contacts-list { background: none; }
 
 /*event*/
 .lp-event #zone4 .article-focus:not(.event-atelier) { max-width: 1240px; text-align: center;  margin: 0 auto; padding-top: 50px;}
-.lp-event #zone4 .keyfig { max-width: 850px; text-align: center;  margin: 0 auto; /*display: inline-block;*/
-position: relative; width: 100%; padding-bottom: 60%; vertical-align: middle; overflow: hidden;  margin-top: 70px; }
+.lp-event #zone4 .keyfig { text-align: center;  margin: 0 auto; margin-top: 70px; }
+.lp-event #zone4 .keyfig svg {  max-width: 850px; }
+
+
+
 .svg-content { display: inline-block; position: absolute; top: 0; left: 0;}
 
 /*programme*/
