@@ -2080,3 +2080,10 @@ body.contact .contacts-list { background: none; }
 /*programme*/
 .lp-event .tabs .tabs__nav li { width: 25%; }
 .tab__entry h4 { padding-top: 50px; }
+
+
+/*infos pratiques*/
+.lp-info .box .box__content { position: relative; z-index: 10; padding: 24px 30px 13px; font-family: 'Source Sans Pro', sans-serif; font-size: 22px; line-height: 1.55; color: #000; font-weight: normal; outline: 5px solid; background-color: #fff;  outline-color: #7BC0E6; margin-top: 5px; }
+.lp-info .box .box__content {  }
+.lp-info .box .box__content strong { font-size: 22px; line-height: 1.55; font-weight: bold; }
+.lp-info .tabs .tabs__nav li {  width: 50%; }
